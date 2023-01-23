@@ -1,0 +1,13 @@
+.box>label {
+  color: #4F5665;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box>input {
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #4F5665;
+  border-radius: 10px;
+  font-size: 18px;
+}

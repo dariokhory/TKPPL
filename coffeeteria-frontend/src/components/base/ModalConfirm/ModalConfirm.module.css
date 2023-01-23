@@ -1,0 +1,54 @@
+.modal {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.border-radius div {
+  border-radius: 20px !important;
+}
+
+.modal_box {
+  height: 220px;
+  justify-content: center !important;
+}
+
+.modal_body {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* footer */
+.modal_footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* buttons */
+.modal_footer>button {
+  height: 55px;
+  width: 130px;
+  border-radius: 10px !important;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #FFBA33 !important;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.65) !important;
+  border: none !important;
+  color: #0B132A !important;
+}
+
+.btn_white {
+  border: 3px solid #6A4029 !important;
+  color: #6A4029 !important;
+}
+
+.btn_brown {
+  background-color: #6A4029 !important;
+  color: #FFFFFF !important;
+}
