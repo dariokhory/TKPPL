@@ -1,0 +1,33 @@
+.container {
+  height: 100% !important;
+}
+
+.content {
+  padding: 25px 30px 50px !important;
+}
+
+/* breadcrumb */
+.crumb {
+  font-size: 20px;
+  color: #4F5665;
+  font-family: 'Rubik', sans-serif !important;
+  margin-bottom: 40px;
+}
+
+.crumb_page:hover {
+  padding-bottom: 3px !important;
+  border-bottom: 3px solid #6A4029 !important;
+  color: #0B132A !important;
+}
+
+.crumb_active {
+  color: #6A4029;
+  font-weight: bold;
+  --bs-breadcrumb-divider: '>';
+}
+
+/* section */
+.section {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+.wrapper {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px !important;
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.tabs {
+  cursor: pointer;
+}
+
+.tabs>span {
+  color: #9F9F9F;
+  font-size: 20px;
+}
+
+.tabs>span:hover {
+  color: #0B132A;
+}
+
+.tabs_on>span {
+  color: #6A4029 !important;
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-bottom: 3px; */
+  border-bottom: 3px solid #6A4029;
+  cursor: pointer;
+}
+
+.tabs_on>span:hover {
+  color: #0B132A !important;
+  border-bottom: 3px solid #0B132A;
+}

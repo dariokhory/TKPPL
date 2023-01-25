@@ -1,0 +1,46 @@
+.wrapper {
+  height: 90px;
+  font-family: 'Rubik', sans-serif !important;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-right: 14%;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrapper {
+    padding: 0 10% 0 5% !important;
+  }
+}
+
+.brand {
+  display: flex;
+}
+
+.brand>span {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+  color: #0B132A;
+}
+
+.btn_gold {
+  width: 150px;
+  height: 45px;
+  border-radius: 50px !important;
+  background-color: #FFba33 !important;
+  box-shadow: 1px 6px 20px rgba(255, 186, 51, 0.4);
+  color: #6A4029 !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+
+.btn_gold:hover {
+  color: #FFFFFF !important;
+  font-weight: bolder !important;
+  background-color: #6A4029 !important;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.65) !important;
+}

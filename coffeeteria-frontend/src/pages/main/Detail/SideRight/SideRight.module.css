@@ -1,0 +1,117 @@
+.section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* detail */
+.detail {
+  margin-bottom: 55px;
+}
+
+/* text: desc */
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.detail>h3 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.desc {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  /* background-color: tan; */
+}
+
+/* div: option */
+.option {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* dropdown */
+.dropdown {
+  height: 60px;
+  padding-left: 20px !important;
+  border-radius: 10px !important;
+  border: 1px solid #9F9F9F !important;
+  color: #9F9F9F !important;
+}
+
+/* counter */
+.amount {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter {
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #9F9F9F !important;
+}
+
+.counter>button {
+  color: #9F9F9F;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.counter>button:hover {
+  background-color: #FFBA33 !important;
+  color: #6A4029 !important;
+  outline: 3px solid #6A4029 !important;
+}
+
+.counter>button:first-child {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.counter>button:last-child {
+  border-radius: 0 10px 10px 0 !important;
+}
+
+.counter>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: default;
+}
+
+/* button */
+.btn {
+  height: 60px;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  border-radius: 15px !important;
+}
+
+.btn:hover {
+  color: #FFBA33 !important;
+  background-color: #0B132A !important;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.65) !important;
+}
+
+.btn_gold {
+  color: #6A4029 !important;
+  background-color: #FFBA33 !important;
+  box-shadow: 0px 6px 20px rgba(255, 186, 51, 0.29);
+}
+
+.btn_brown {
+  width: 100%;
+  color: #ffffff !important;
+  background-color: #6A4029 !important;
+}
