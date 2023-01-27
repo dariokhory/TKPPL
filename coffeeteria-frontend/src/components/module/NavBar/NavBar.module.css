@@ -1,0 +1,27 @@
+.nav {
+  height: 90px;
+  font-family: 'Rubik', sans-serif !important;
+  border-bottom: 0.5px solid #9f9f9f !important;
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 2;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px !important;
+}
+
+/* section: left */
+.brand {
+  display: flex;
+}
+
+.brand>span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: #0B132A !important;
+}
