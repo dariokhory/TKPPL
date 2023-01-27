@@ -5,7 +5,7 @@ module.exports = {
   createUser: (payload) => {
     return queryAction(`INSERT INTO public.user
     (username, email, password, phone, role) VALUES 
-    ('${((payload.email).split('@'))[0]}', '${payload.email}', '${payload.password}', '${payload.phone}', '${payload.role}') RETURNING id `,
+    ('${((payload.email).split('@'))[0]}', '${payload.email}', '${payload.password}', ${payload.phone}, '${payload.role}') RETURNING id `,
     )
   },
   createUserDetail: (payload) => {

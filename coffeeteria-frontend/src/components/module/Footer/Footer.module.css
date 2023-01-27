@@ -1,0 +1,148 @@
+.bg {
+  background-color: #f8f8f8;
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.wrapper {
+  padding: 0 30px !important;
+}
+
+/* card */
+.card {
+  height: 180px !important;
+  border-radius: 10px !important;
+  -webkit-filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.22)) !important;
+  filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.22)) !important;
+  background-color: #ffffff;
+  margin-bottom: -30px;
+  padding: 30px 50px !important;
+  position: relative;
+  top: -90px;
+}
+
+.card_box {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_side:first-child {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card_side>h5 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.card_side>span {
+  color: #4F5665;
+}
+
+.card_side>button {
+  width: 220px;
+  height: 50px;
+  background: #FFBA33 !important;
+  border-radius: 10px !important;
+  font-weight: bold !important;
+  color: #6A4029 !important;
+  border: none;
+  box-shadow: 0px 15px 20px rgba(255, 186, 51, 0.3);
+}
+
+
+/* main */
+.main {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_other {
+  padding: 0 0 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* side: left */
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* brand */
+.brand {
+  margin-bottom: 20px;
+  display: flex;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.brand>span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: #0B132A;
+  cursor: pointer;
+}
+
+/* desc */
+.desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+}
+
+.desc>p {
+  color: #4F5665;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.desc>div {
+  margin-bottom: 25px;
+}
+
+.desc>span {
+  color: #AFB5C0;
+}
+
+/* button: share */
+.btn_share {
+  border-radius: 50%;
+  background: #6A4029;
+  box-shadow: 0px 6px 20px rgba(196, 196, 196, 0.67);
+  margin-right: 20px;
+}
+
+/* side: right */
+.right {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px !important;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  display: block;
+  font-size: 18px;
+  color: #0B132A;
+  margin-bottom: 15px;
+}
+
+.section span {
+  font-size: 16px;
+  color: #4F5665;
+}

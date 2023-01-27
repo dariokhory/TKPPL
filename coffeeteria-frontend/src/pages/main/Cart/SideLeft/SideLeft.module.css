@@ -1,0 +1,135 @@
+.container {
+  border-radius: 15px !important;
+  padding: 70px 50px 50px;
+  color: #362115;
+}
+
+/* title */
+.title {
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.empty_box {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #88B788;
+  border-radius: 15px !important;
+}
+
+.empty_box>h4 {
+  color: #FFFFFF !important;
+  font-weight: bold !important;
+  margin: 0;
+}
+
+/* cart: items */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.items_list {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 5px;
+  padding: 10px;
+  border-radius: 15px !important;
+}
+
+.items_list:hover {
+  box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+  font-weight: bold !important;
+  outline: 3px solid #6A4029 !important;
+}
+
+.items_list>span {
+  font-size: 18px !important;
+}
+
+.img {
+  width: 80px !important;
+  height: 80px !important;
+  margin-right: 30px;
+}
+
+.img>img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.text {
+  width: calc(100% - 110px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amount {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  color: #000000 !important;
+}
+
+.text>span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px !important;
+}
+
+.btn_delete {
+  height: 40px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
+  background-color: #6A4029 !important;
+}
+
+.items_list:hover>.btn_delete {
+  background-color: #FFBA33 !important;
+}
+
+.items_list:hover>.btn_delete:hover {
+  background-color: #6A4029 !important;
+  outline: 3px solid #FFBA33 !important;
+}
+
+.btn_delete>i {
+  color: #FFFFFF !important;
+}
+
+.items_list:hover>.btn_delete:hover>i {
+  color: #FFFFFF !important;
+}
+
+.items_list:hover>.btn_delete>i {
+  color: #6A4029 !important;
+}
+
+/* cart: bill */
+.detail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.null {
+  display: none !important;
+}
+
+.total {
+  margin-top: 30px;
+}
+
+.total>h4 {
+  font-weight: bolder !important;
+}
