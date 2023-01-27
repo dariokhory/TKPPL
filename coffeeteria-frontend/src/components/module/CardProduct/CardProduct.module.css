@@ -1,0 +1,110 @@
+.container {
+  width: 170px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px !important;
+  box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.3);
+  font-family: 'Poppins', sans-serif !important;
+  margin: 40px 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container:hover {
+  color: #ffffff !important;
+  background-color: #FFBA33;
+  outline: 3px solid #6A4029 !important;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.65) !important;
+}
+
+.container:hover>.body>span {
+  color: #0B132A !important;
+}
+
+.content {
+  width: 170px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px !important;
+  box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.3);
+  font-family: 'Poppins', sans-serif !important;
+  margin: 40px 0;
+  padding: 5px;
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: -40px;
+}
+
+.image>img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 100% !important;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center !important;
+  margin-top: 60% !important;
+}
+
+.body>h5 {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+
+.body>h5::first-letter {
+  text-transform: capitalize;
+}
+
+.body>span {
+  font-size: 15px;
+  font-weight: bold;
+  color: #6A4029;
+}
+
+.btn_delete {
+  width: 35px;
+  height: 35px;
+  border-radius: 50% !important;
+  background-color: #6A4029 !important;
+  padding: 0 !important;
+}
+
+.btn_delete:hover {
+  outline: 3px solid #6A4029;
+  background-color: #FFBA33 !important;
+}
+
+.btn_edit {
+  width: 35px;
+  height: 35px;
+  border-radius: 50% !important;
+  background-color: #6A4029 !important;
+  padding: 0 !important;
+}
+
+.btn_edit:hover {
+  outline: 3px solid #6A4029;
+  background-color: #FFBA33 !important;
+}
+
+.btn_edit>img {
+  width: 50% !important;
+  height: 50% !important;
+}

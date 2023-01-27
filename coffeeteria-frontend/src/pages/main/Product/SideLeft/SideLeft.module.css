@@ -1,0 +1,65 @@
+.wrapper {
+  height: calc(100vh - 90px);
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px 40px 40px !important;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header>h4 {
+  color: #6A4029;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.header>span {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.coupon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #C59378;
+  border-radius: 20px !important;
+  padding: 15px 0;
+}
+
+.coupon>h4 {
+  font-weight: bolder;
+}
+
+.coupon>span {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+  color: #4F5665;
+  margin-top: auto;
+}
+
+.terms>li {
+  list-style: none;
+}
