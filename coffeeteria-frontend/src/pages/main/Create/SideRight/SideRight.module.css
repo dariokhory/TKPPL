@@ -1,0 +1,68 @@
+.wrapper {
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.wrapper>div {
+  margin-bottom: 60px !important;
+}
+
+.field_edit>label {
+  color: #6A4029;
+  font-weight: bold !important;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.field_edit>input {
+  color: #9F9F9F !important;
+  border: 1px solid #9F9F9F;
+  border-radius: 15px !important;
+  padding-left: 20px !important;
+  font-weight: 500 !important;
+  font-size: 15px;
+  height: 60px;
+}
+
+.field_edit>textarea {
+  color: #9F9F9F !important;
+  border: 1px solid #9F9F9F;
+  border-radius: 15px !important;
+  padding-left: 20px !important;
+  font-weight: 500 !important;
+}
+
+/* dropdown */
+.dropdown {
+  height: 60px;
+  color: #9F9F9F !important;
+  font-weight: 500 !important;
+  padding-left: 20px !important;
+  border-radius: 15px !important;
+  border: 1px solid #9F9F9F !important;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  height: 70px;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  border-radius: 15px !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.btn:hover {
+  color: #6A4029 !important;
+  background-color: #FFBA33 !important;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.65) !important;
+}
+
+.btn_brown {
+  color: #ffffff !important;
+  background-color: #6A4029 !important;
+}
+
+.btn_grey {
+  color: #4F5665 !important;
+  background-color: #E7E7E7 !important;
+}
