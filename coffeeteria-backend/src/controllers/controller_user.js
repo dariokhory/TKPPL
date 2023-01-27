@@ -90,7 +90,6 @@ module.exports = {
       updated_at: new Date()
     }
     try {
-      console.log(data)
       await modifyUser(data, id)
       await modifyUserDetail(detail, id)
       response(res, [], res.statusCode, "User profile updated successfully", null, null)

@@ -1,0 +1,41 @@
+.container {
+  height: 100vh !important;
+}
+
+
+@media (min-width: 768px) {
+  .upper {
+    height: 115vh !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .upper {
+    height: 100vh !important;
+  }
+}
+
+.bg {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/bg_auth.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.thumb_vertical {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16) !important;
+  background-color: #6A4029;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.card {
+  height: 180px;
+  margin: 0 100px;
+  position: relative;
+  bottom: 90px;
+  background-color: white !important;
+  border: 1px solid black;
+  /* z-index: 10; */
+}
