@@ -6,7 +6,6 @@ const userRoutes = require('./router_user')
 const productRoutes = require('./router_product')
 const categoryRoutes = require('./router_category')
 const historyRoutes = require('./router_order')
-
 // usage: express-router
 const router = Router()
 

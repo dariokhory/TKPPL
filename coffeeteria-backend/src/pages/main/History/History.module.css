@@ -1,0 +1,75 @@
+.container {
+  min-height: calc(100vh - 90px) !important;
+  background-image: url('../../../assets/images/bg_history.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  min-height: calc(100vh - 90px) !important;
+  padding: 0 0 70px !important;
+}
+
+/* section: header */
+.header {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik', sans-serif !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.header>h2 {
+  font-weight: bold;
+}
+
+.header>p {
+  font-size: 18px;
+}
+
+.main {
+  min-height: calc(100vh - 440px);
+}
+
+/* loading */
+.loading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: calc(100vh - 340px);
+}
+
+/* section: empty */
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 340px);
+  /* background-color: cornflowerblue; */
+}
+
+.empty>h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #FFBA33;
+}
+
+/* section: card */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card_item {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  height: 100px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-end !important;
+}
